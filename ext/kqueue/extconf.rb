@@ -7,4 +7,6 @@ unless headers.all?{|h| have_header(h)}
   puts "[31m*** you can require 'kqueue'. But, you can not use Kqueue APIs. ***[m"
 end
 
+have_header('alloca.h')
+
 create_makefile('kqueue')

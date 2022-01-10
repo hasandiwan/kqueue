@@ -5,7 +5,6 @@
 #if defined(HAVE_SYS_TYPES_H) && defined(HAVE_SYS_EVENT_H) && defined(HAVE_SYS_TIME_H)
 
 #include <fcntl.h>
-#include <alloca.h>
 #include <sys/types.h>
 #include <sys/event.h>
 #include <sys/time.h>
